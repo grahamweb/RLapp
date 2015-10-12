@@ -1,0 +1,49 @@
+.bizInfo .businessInfoHolder {
+    width: 33%;
+    display: block;
+    min-height: 1.5em;
+    float: left;
+}   
+.thumbnail .itemH {
+    width: 50%;
+    display: block;
+    min-height: 1.5em;
+    line-height: 1.5em;
+    float: left;
+}
+.thumbnail .itemH.desc {
+    width: 100%;
+}
+@media (max-width: 500px) {
+    .bizInfo .businessInfoHolder, .thumbnail .itemH  {
+        width: 100%;
+    }
+}
+.bizInfo .title, .thumbnail .itemK {
+    display: block;
+    font-weight: bold;
+}
+.pagination > li > a.active {
+    background: #D4D4D4;
+}
+@media (min-width: 500px) {
+    .content {
+        padding: 0 30px;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-6 {
+        min-height: 610px;
+    }
+}
+@media (min-width: 992px) {
+    .ajaxContent .col-md-4 {
+        min-height: 615px;
+    }           
+}
+.clearAll {
+    height: 1px;
+    line-height: 1px;
+    display: block;
+    clear: both;
+}
